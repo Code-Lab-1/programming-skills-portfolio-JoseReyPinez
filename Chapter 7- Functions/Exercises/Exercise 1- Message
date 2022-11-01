@@ -1,0 +1,4 @@
+def display_message():
+    print("This chapter we are learning about functions and how to use them.")
+  
+display_message()

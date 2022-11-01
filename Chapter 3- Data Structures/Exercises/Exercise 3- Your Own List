@@ -1,0 +1,9 @@
+car=["Acura", "Alfa Romeo", "Audi", "BMW", "Bentley", "Buick", "Cadillac", "Chevrolet"]
+print(car[0],"looks like a good car to own")
+print(car[1],"looks like a good car to own")
+print(car[2],"looks like a good car to own")
+print(car[3],"looks like a good car to own")
+print(car[4],"looks like a good car to own")
+print(car[5],"looks like a good car to own")
+print(car[6],"looks like a good car to own")
+print(car[7],"looks like a good car to own")

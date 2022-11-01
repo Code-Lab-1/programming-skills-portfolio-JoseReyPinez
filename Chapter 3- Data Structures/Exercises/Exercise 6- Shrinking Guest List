@@ -1,0 +1,21 @@
+invitees=["Dave Chapelle", "Will Smith", "Chris Rock"]
+print("Dear,", invitees[0]+", we would be honored if we could invite you over for dinner. Please do come!")
+print("Dear,", invitees[1]+", we would be honored if we could invite you over for dinner. Please do come!")
+print("Dear,", invitees[2]+", we would be honored if we could invite you over for dinner. Please do come!")
+
+print("We'll need to invite somebody else, looks like", invitees[1],"won't be able to come over for dinner.")
+invitees[1]= "Ryan Reynolds"
+print(invitees)
+print("Dear,", invitees[0]+", we would like to invite you over for dinner. We would be delighted to have you over!")
+print("Dear,", invitees[1]+", we would like to invite you over for dinner. We would be delighted to have you over!")
+print("Dear,", invitees[2]+", we would like to invite you over for dinner. We would be delighted to have you over!")
+
+print("Looks like that new dinner table won't arrive in time for the dinner. We'll only have space for two guests")
+invitees.pop(1)
+print(invitees)
+print("Dear, Ryan Reynolds, unfortunately it Looks like we won't be able to accomodate you for dinner. We humbly apologize and hope that we can invite you over for some other time.")
+print("Dear,", invitees[0]+", we are pleased to inform you that we were fortunately stil able to have you over for dinner. Please do come over!")
+print("Dear,", invitees[1]+", we are pleased to inform you that we were fortunately stil able to have you over for dinner. Please do come over!")
+
+del invitees[0:2]
+print(invitees)
