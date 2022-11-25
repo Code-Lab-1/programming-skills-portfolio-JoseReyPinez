@@ -6,6 +6,7 @@ student = {
     "Email": "josereypinez@gmail.com", 
     "Nationality": "Filipino" 
     }
+
 student.popitem()
 student["Name"]= "ABC"
 print(str(student).replace("{","").replace("}", "").replace("'", ""))
