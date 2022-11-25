@@ -1,0 +1,8 @@
+num = int(input("Enter number:  "))
+while num %2==0:
+  print("Number is even")
+  break
+
+while num %2!=0:
+  print("Number is odd")
+  break

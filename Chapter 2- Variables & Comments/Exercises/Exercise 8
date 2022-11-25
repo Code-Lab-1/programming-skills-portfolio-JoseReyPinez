@@ -1,0 +1,16 @@
+a = 10
+b = {"Hello, world":10}
+c = [10, "Hello, world"]
+d = (10, "Hello, world")
+e = "Hello, world"
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+print(type(a)())
+print(type(b)())
+print(type(c)())
+print(type(d)())
+print(type(e)())

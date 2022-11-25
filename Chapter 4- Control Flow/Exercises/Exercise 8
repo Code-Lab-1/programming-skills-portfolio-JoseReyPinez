@@ -1,0 +1,4 @@
+a=60
+if a>50:
+    print("This is the if body")
+print("This is outside the if block")

@@ -1,0 +1,4 @@
+genre = ['pop', 'rock', 'jazz','classical','heavy metal','air supply']
+
+for i in range(len(genre)):
+  print("I like", genre[i])

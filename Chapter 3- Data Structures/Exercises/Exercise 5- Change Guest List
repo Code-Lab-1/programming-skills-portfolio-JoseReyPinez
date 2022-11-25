@@ -1,0 +1,10 @@
+invitees=["Dave Chapelle", "Will Smith", "Chris Rock"]
+print("Dear,", invitees[0]+", we would be honored if we could invite you over for dinner. Please do come!")
+print("Dear,", invitees[1]+", we would be honored if we could invite you over for dinner. Please do come!")
+print("Dear,", invitees[2]+", we would be honored if we could invite you over for dinner. Please do come!")
+
+print("We'll need to invite somebody else, looks like", invitees[1],"won't be able to come over for dinner.")
+invitees[1]= "Ryan Reynolds"
+print("Dear,", invitees[0]+", we would like to invite you over for dinner. We would be delighted to have you over!")
+print("Dear,", invitees[1]+", we would like to invite you over for dinner. We would be delighted to have you over!")
+print("Dear,", invitees[2]+", we would like to invite you over for dinner. We would be delighted to have you over!")

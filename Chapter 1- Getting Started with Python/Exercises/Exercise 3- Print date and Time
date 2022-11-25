@@ -1,0 +1,8 @@
+from datetime import datetime
+now = datetime.now()
+current_time = now.strftime("%T")
+print(current_time)
+from datetime import date
+time = datetime.now()
+current_date = time.strftime("%D")
+print(current_date)

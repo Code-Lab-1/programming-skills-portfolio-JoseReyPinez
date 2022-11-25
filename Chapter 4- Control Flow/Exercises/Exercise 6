@@ -1,0 +1,9 @@
+A=int(input('Enter value of A:   '))
+B=int(input('Enter value of B:   '))
+if A > B:
+  print("A is greater than B")
+elif A < B:
+  print("B is greater than A")
+elif A==B:
+    print("A and B are equal")
+

@@ -1,0 +1,12 @@
+student = {
+    "Name":"Jose Rey P. Piñez Jr.", 
+    "Age": "17", 
+    "Course": "Creative Computing", 
+    "Gender": "Male", 
+    "Email": "josereypinez@gmail.com", 
+    "Nationality": "Filipino" 
+    }
+
+student.popitem()
+student["Name"]= "ABC"
+print(str(student).replace("{","").replace("}", "").replace("'", ""))

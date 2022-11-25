@@ -1,0 +1,21 @@
+Dog = {
+    'Owner': 'Regan',
+    'Animal': 'Dog',
+    'Breed': 'German Shepherd',
+    }
+
+Cat= {
+    'Owner': 'Khloe',
+    'Animal': 'Cat',
+    'Breed': 'Persian',
+    }
+
+Parrot= {
+    'Owner': 'Angel',
+    'Animal': 'Parrot',
+    'Breed': 'Parakeets',
+    }
+
+pets=[Dog, Cat, Parrot]
+
+print(pets)

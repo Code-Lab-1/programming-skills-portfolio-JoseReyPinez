@@ -1,0 +1,19 @@
+glossary = {
+    'String': 'A non-numerical value.',
+    'Integer': 'A numerical value.',
+    'List': 'A collection of values.',
+    'Dictionary': 'A collection of pairs of values. One key value used to call out a specific value and the other value associated with the key value.',
+    'Loop': 'Code that can run over and over again.',
+    }
+
+
+
+print("String :",glossary['String'],"\n")
+
+print("Integer :",glossary['Integer'],"\n")
+
+print("List :", glossary['List'],"\n")
+
+print("Loop :", glossary['Loop'],"\n")
+
+print("Dictionary :", glossary['Dictionary'],"\n")

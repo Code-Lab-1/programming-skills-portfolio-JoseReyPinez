@@ -1,0 +1,15 @@
+river = {
+    'Amazon': 'Brazil',
+    'Mississippi': 'USA',
+    'Nile': 'Egpyt',
+    }
+for a, b in river.items():
+    print("The river", a,"runs through", b+".\n")
+
+print("Rivers:")
+for a in river.keys():
+    print(a)
+
+print("\nCountries:")
+for b in river.values():
+    print(b)

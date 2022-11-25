@@ -1,0 +1,11 @@
+Budget= 50
+USB_Stick_Price= 6
+total_USB_Sticks= Budget//USB_Stick_Price
+Price= total_USB_Sticks*USB_Stick_Price
+Change= Budget-Price
+total_Price= "£{:,}".format(Price)
+total_Change= "£{:,}".format(Change)
+
+print("The total of USB sticks that can be bought is", total_USB_Sticks)
+print("The total price of the USB sticks is", total_Price)
+print("The pounds left will be",total_Change)
