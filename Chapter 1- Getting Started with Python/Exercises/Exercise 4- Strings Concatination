@@ -1,6 +1,6 @@
 string_1= "Hello world "
 string_2= "Hello world "
-string_3= "Hello world"
+string_3= "Hello world "
 string_4=string_1 + string_2, string_3
 print(string_1 + string_2, string_3)
 print(string_4)
