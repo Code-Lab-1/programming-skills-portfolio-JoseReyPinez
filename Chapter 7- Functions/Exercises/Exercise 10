@@ -1,0 +1,5 @@
+def addition(num_1,num_2,num_3,num_4):
+  add= num_1+num_2+num_3+num_4
+  print(add)
+
+addition(4,6,5,5)

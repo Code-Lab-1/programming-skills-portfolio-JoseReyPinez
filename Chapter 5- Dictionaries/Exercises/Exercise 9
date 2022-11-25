@@ -1,0 +1,11 @@
+student = {
+    "Name":"Jose Rey P. Piñez Jr.", 
+    "Age": "17", 
+    "Course": "Creative Computing", 
+    "Gender": "Male", 
+    "Email": "josereypinez@gmail.com", 
+    "Nationality": "Filipino" 
+    }
+
+print(str(student.values()).replace("{","").replace("}", "").replace("'", "").replace("[", "").replace("]", ""))
+print(str(student.keys()).replace("{","").replace("}", "").replace("'", "").replace("[", "").replace("]", ""))

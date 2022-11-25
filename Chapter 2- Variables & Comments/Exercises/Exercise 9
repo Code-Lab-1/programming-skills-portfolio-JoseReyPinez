@@ -1,0 +1,24 @@
+str1 = "Hello, world"
+str2 = "Hello world"
+ 
+print("Memory location of str1 =", hex(id(str1)))
+print("Memory location of str2 =", hex(id(str2)))
+
+str1 = "Hello, world!"
+str2 = "Hello, world!"
+ 
+print("\nMemory location of str1 =", hex(id(str1)))
+print("Memory location of str2 =", hex(id(str2)))
+
+str1 = 10
+str2 = 20
+ 
+print("\nMemory location of str1 =", hex(id(str1)))
+print("Memory location of str2 =", hex(id(str2)))
+
+str1 = 10
+str2 = 10
+ 
+print("\nMemory location of str1 =", hex(id(str1)))
+print("Memory location of str2 =", hex(id(str2)))
+

@@ -1,0 +1,11 @@
+student = {
+    "Name":"Jose Rey P. Piñez Jr.", 
+    "Age": "17", 
+    "Course": "Creative Computing", 
+    "Gender": "Male", 
+    "Email": "josereypinez@gmail.com", 
+    "Nationality": "Filipino" 
+    }
+
+student.update({"Number" :"+971 50 628 6908"})
+print(str(student).replace("{","").replace("}", "").replace("'", ""))

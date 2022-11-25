@@ -1,0 +1,5 @@
+names = ['Orange','Mango','Bike','Whale']
+for x in names:
+  print('The following line will print each letter of', x)
+  for letter in x:
+    print(letter)
