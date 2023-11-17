@@ -1,0 +1,4 @@
+def make_shirt(size,text):
+    print("The size of the shirt will be", size, "and \nthe text that will be printed on the shirt will be", text)
+make_shirt("'large'", "'I need a <br>'")
+make_shirt(size="'medium'",text="'Computer jokes aren't funny. Not one bit.'")

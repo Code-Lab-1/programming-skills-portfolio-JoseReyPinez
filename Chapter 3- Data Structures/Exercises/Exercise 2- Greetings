@@ -1,0 +1,4 @@
+names=['Christopher', 'Kurt', 'Mark']
+print("Hello, "+names[0]+", nice to meet you today!")
+print("Hello, "+names[1]+", nice to meet you today!")
+print("Hello, "+names[2]+", nice to meet you today!")

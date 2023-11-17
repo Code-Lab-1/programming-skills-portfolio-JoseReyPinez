@@ -1,0 +1,12 @@
+favorite_fruits = ['apples', 'bananas', 'mangoes']
+
+if 'bananas' in favorite_fruits:
+    print("You really like bananas!")
+if 'apples' in favorite_fruits:
+    print("You really like apples!")
+if 'mangoes' in favorite_fruits:
+    print("You really like mangoes!")
+if 'jackfruit' in favorite_fruits:
+    print("You really like jackfruit!")
+if 'durian' in favorite_fruits:
+    print("You really like durian!")

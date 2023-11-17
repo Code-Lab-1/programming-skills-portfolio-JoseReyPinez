@@ -1,0 +1,4 @@
+Temperature= int(input("Enter temperature:   "))
+if Temperature <25:
+                 print("Go outside!")
+else : print("Stay inside!")

@@ -1,0 +1,8 @@
+sandwich_orders=["Egg Sandwich", "Grilled Cheese", "Spicy Chicken Sandwich", "Nutella Sandwich", "Grilled Chicken Sandwich"]
+finished_sandwiches=[]
+for sandwich in sandwich_orders:
+    print("\nOrder for", sandwich,"received, preparation will now start.")
+    finished_sandwiches.append(sandwich)
+
+for sandwich in finished_sandwiches:
+    print("\nOrder up for one", sandwich+"!")

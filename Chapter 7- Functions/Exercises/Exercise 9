@@ -1,0 +1,7 @@
+def fav_fruit(fruit):
+  for a in fruit:
+    print(a)
+
+fruits=['apple','banana','mango','dragonfruit']
+
+fav_fruit(fruits)

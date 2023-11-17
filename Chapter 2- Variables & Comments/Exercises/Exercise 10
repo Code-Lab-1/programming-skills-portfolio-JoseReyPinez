@@ -1,0 +1,31 @@
+a = "Hello, world."
+b= "hello world"
+
+if a == b:
+    print("\nVariables are the same.")
+else:
+    print("\nVariables are not the same.")
+
+a = "Hello, world."
+b= "Hello, world."
+
+if a == b:
+    print("\nVariables are the same.")
+else:
+    print("\nVariables are not the same.")
+
+a = 5
+b= 10
+
+if a == b:
+    print("\nVariables are the same.")
+else:
+    print("\nVariables are not the same.")
+
+a = 10
+b= 10
+
+if a == b:
+    print("\nVariables are the same.")
+else:
+    print("\nVariables are not the same.")

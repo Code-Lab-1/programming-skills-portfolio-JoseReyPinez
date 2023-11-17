@@ -1,0 +1,5 @@
+def location(country= "pakistan"):
+  print('I am living in', country)
+
+location("Philippines")
+location()

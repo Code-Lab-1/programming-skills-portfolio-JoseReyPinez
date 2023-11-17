@@ -1,0 +1,20 @@
+try:
+    x = "Hello, world"
+except NameError:
+  print("Variable is not defined.")
+else:
+  print("Variable is defined.")
+
+try:
+    y = 10
+except NameError:
+  print("Variable is not defined.")
+else:
+  print("Variable is defined.")
+
+try:
+    z
+except NameError:
+  print("Variable is not defined.")
+else:
+  print("Variable is defined.")
